@@ -7,17 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E301D3141FCD0A65001F219D /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301D3131FCD0A65001F219D /* MainTabBarController.swift */; };
+		E301D3161FCD0AA6001F219D /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301D3151FCD0AA6001F219D /* MainNavigationController.swift */; };
+		E301D3181FCD0AC1001F219D /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301D3171FCD0AC1001F219D /* MainTabBar.swift */; };
+		E301D31A1FCD0EB1001F219D /* EssenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301D3191FCD0EB1001F219D /* EssenceViewController.swift */; };
+		E301D31C1FCD0EC0001F219D /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301D31B1FCD0EC0001F219D /* NewViewController.swift */; };
+		E301D3211FCD0F11001F219D /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301D3201FCD0F11001F219D /* FriendViewController.swift */; };
+		E301D3231FCD0F1F001F219D /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301D3221FCD0F1F001F219D /* MeViewController.swift */; };
+		E301D3251FCD4512001F219D /* PublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301D3241FCD4512001F219D /* PublishViewController.swift */; };
+		E301D3311FCD48D9001F219D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301D3301FCD48D9001F219D /* UIView+Extension.swift */; };
+		E301D3331FCD543E001F219D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301D3321FCD543D001F219D /* Common.swift */; };
 		E34D456A1FCCF83F00B743EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34D45691FCCF83F00B743EE /* AppDelegate.swift */; };
-		E34D456C1FCCF83F00B743EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34D456B1FCCF83F00B743EE /* ViewController.swift */; };
 		E34D456F1FCCF83F00B743EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34D456D1FCCF83F00B743EE /* Main.storyboard */; };
 		E34D45711FCCF83F00B743EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34D45701FCCF83F00B743EE /* Assets.xcassets */; };
 		E34D45741FCCF83F00B743EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34D45721FCCF83F00B743EE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E301D3131FCD0A65001F219D /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		E301D3151FCD0AA6001F219D /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		E301D3171FCD0AC1001F219D /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		E301D3191FCD0EB1001F219D /* EssenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssenceViewController.swift; sourceTree = "<group>"; };
+		E301D31B1FCD0EC0001F219D /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		E301D3201FCD0F11001F219D /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		E301D3221FCD0F1F001F219D /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		E301D3241FCD4512001F219D /* PublishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishViewController.swift; sourceTree = "<group>"; };
+		E301D3261FCD46C0001F219D /* SwiftTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		E301D3301FCD48D9001F219D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		E301D3321FCD543D001F219D /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		E34D45661FCCF83F00B743EE /* SwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34D45691FCCF83F00B743EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E34D456B1FCCF83F00B743EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E34D456E1FCCF83F00B743EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E34D45701FCCF83F00B743EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E34D45731FCCF83F00B743EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +54,227 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E301D2F61FCD09B2001F219D /* 关注 */ = {
+			isa = PBXGroup;
+			children = (
+				E301D31D1FCD0EFA001F219D /* Controller */,
+				E301D2F81FCD09B2001F219D /* Model */,
+				E301D2F91FCD09B2001F219D /* View */,
+				E301D2FA1FCD09B2001F219D /* ViewModel */,
+			);
+			path = "关注";
+			sourceTree = "<group>";
+		};
+		E301D2F81FCD09B2001F219D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E301D2F91FCD09B2001F219D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E301D2FA1FCD09B2001F219D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E301D2FB1FCD09B2001F219D /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				E301D2FC1FCD09B2001F219D /* Controller */,
+				E301D2FD1FCD09B2001F219D /* Model */,
+				E301D2FE1FCD09B2001F219D /* View */,
+				E301D2FF1FCD09B2001F219D /* ViewModel */,
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		E301D2FC1FCD09B2001F219D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E301D3221FCD0F1F001F219D /* MeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E301D2FD1FCD09B2001F219D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E301D2FE1FCD09B2001F219D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E301D2FF1FCD09B2001F219D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E301D3001FCD09B2001F219D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E301D3011FCD09B2001F219D /* Category */,
+				E301D3021FCD09B2001F219D /* Controller */,
+				E301D3031FCD09B2001F219D /* Tools */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E301D3011FCD09B2001F219D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E301D3261FCD46C0001F219D /* SwiftTest-Bridging-Header.h */,
+				E301D3301FCD48D9001F219D /* UIView+Extension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E301D3021FCD09B2001F219D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E301D3131FCD0A65001F219D /* MainTabBarController.swift */,
+				E301D3151FCD0AA6001F219D /* MainNavigationController.swift */,
+				E301D3171FCD0AC1001F219D /* MainTabBar.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E301D3031FCD09B2001F219D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E301D3321FCD543D001F219D /* Common.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E301D3041FCD09B2001F219D /* 发布 */ = {
+			isa = PBXGroup;
+			children = (
+				E301D3051FCD09B2001F219D /* Controller */,
+				E301D3061FCD09B2001F219D /* Model */,
+				E301D3071FCD09B2001F219D /* View */,
+				E301D3081FCD09B2001F219D /* ViewModel */,
+			);
+			path = "发布";
+			sourceTree = "<group>";
+		};
+		E301D3051FCD09B2001F219D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E301D3241FCD4512001F219D /* PublishViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E301D3061FCD09B2001F219D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E301D3071FCD09B2001F219D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E301D3081FCD09B2001F219D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E301D3091FCD09B2001F219D /* 精华 */ = {
+			isa = PBXGroup;
+			children = (
+				E301D30A1FCD09B2001F219D /* Controller */,
+				E301D30B1FCD09B2001F219D /* ViewModel */,
+			);
+			path = "精华";
+			sourceTree = "<group>";
+		};
+		E301D30A1FCD09B2001F219D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E301D3191FCD0EB1001F219D /* EssenceViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E301D30B1FCD09B2001F219D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E301D30C1FCD09B2001F219D /* 新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				E301D30D1FCD09B2001F219D /* Controller */,
+				E301D30E1FCD09B2001F219D /* Model */,
+				E301D30F1FCD09B2001F219D /* View */,
+				E301D3101FCD09B2001F219D /* ViewModel */,
+			);
+			path = "新帖";
+			sourceTree = "<group>";
+		};
+		E301D30D1FCD09B2001F219D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E301D31B1FCD0EC0001F219D /* NewViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E301D30E1FCD09B2001F219D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E301D30F1FCD09B2001F219D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E301D3101FCD09B2001F219D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E301D31D1FCD0EFA001F219D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E301D3201FCD0F11001F219D /* FriendViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		E34D455D1FCCF83F00B743EE = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +295,12 @@
 			isa = PBXGroup;
 			children = (
 				E34D45691FCCF83F00B743EE /* AppDelegate.swift */,
-				E34D456B1FCCF83F00B743EE /* ViewController.swift */,
+				E301D3091FCD09B2001F219D /* 精华 */,
+				E301D30C1FCD09B2001F219D /* 新帖 */,
+				E301D3041FCD09B2001F219D /* 发布 */,
+				E301D2F61FCD09B2001F219D /* 关注 */,
+				E301D2FB1FCD09B2001F219D /* 我 */,
+				E301D3001FCD09B2001F219D /* Other */,
 				E34D456D1FCCF83F00B743EE /* Main.storyboard */,
 				E34D45701FCCF83F00B743EE /* Assets.xcassets */,
 				E34D45721FCCF83F00B743EE /* LaunchScreen.storyboard */,
@@ -96,6 +341,7 @@
 				TargetAttributes = {
 					E34D45651FCCF83F00B743EE = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +382,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E34D456C1FCCF83F00B743EE /* ViewController.swift in Sources */,
+				E301D3311FCD48D9001F219D /* UIView+Extension.swift in Sources */,
+				E301D3251FCD4512001F219D /* PublishViewController.swift in Sources */,
+				E301D3231FCD0F1F001F219D /* MeViewController.swift in Sources */,
+				E301D3331FCD543E001F219D /* Common.swift in Sources */,
+				E301D31A1FCD0EB1001F219D /* EssenceViewController.swift in Sources */,
+				E301D31C1FCD0EC0001F219D /* NewViewController.swift in Sources */,
 				E34D456A1FCCF83F00B743EE /* AppDelegate.swift in Sources */,
+				E301D3211FCD0F11001F219D /* FriendViewController.swift in Sources */,
+				E301D3161FCD0AA6001F219D /* MainNavigationController.swift in Sources */,
+				E301D3181FCD0AC1001F219D /* MainTabBar.swift in Sources */,
+				E301D3141FCD0A65001F219D /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +529,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.junmin.www.SwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTest/Other/Category/SwiftTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +546,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.junmin.www.SwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTest/Other/Category/SwiftTest-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
