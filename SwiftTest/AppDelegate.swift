@@ -55,7 +55,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
 extension AppDelegate: UITabBarControllerDelegate{
     
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
-        print("\(viewController)")
+        print("\(String(describing: viewController.tabBarItem.title))")
     }
 }
 
